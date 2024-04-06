@@ -3,23 +3,36 @@
 		<title>
 		ProgressGym
 		</title>
-		<link rel="icon" href="./images/iconoPrincipal.png">
-		<link rel="stylesheet" href="./styles/login.css">
+		<link rel="icon" href="./images/iconoPrincipal.png"> 
+		<link rel="stylesheet" href="./styles/normalize.css">
+		<link rel="stylesheet" href="./styles/app.css">
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<div class="container-name-aplication">
-			<h3 id="text-name-aplication">ProgressGym</h3>
-		</div>
-		<div class="container-logo">
-			<img src="./images/iconoPrincipal.png" alt="logo" id="img-logo">
-		</div>
-		<div class="container-form">
-			<form action="#">
-				<input type="text" placeholder="Usuario" id="input-user">
-				<input tyoe="password" placeholder="Contraseña" id="input-password">
-				<button type="submit"> Iniciar sesión </button>				
-			</form>
-		</div>
-	</body>
+		<main>
+			<div class="main-container">
+				<div class="img-principal">
+					<img src="./images/Login.jpg" alt="Gym principal"> 
+				</div>
+
+				<div class="container">
+					<div class="container-name-aplication">
+						<h3 >Progress<span>Gym</span></h3>
+						<img src="./images/iconoPrincipal.png" alt="logo" id="img-logo">
+					</div>
+		
+					<div>
+						<form class="container-form m-3" action="#">
+							<input type="text" placeholder="Usuario" id="input-user">
+							<input type="password" placeholder="Contraseña" id="input-password">
+							<button type="submit"> Iniciar sesión </button>	
+							<p> ¿Eres un usuario nuevo? <a href="#"> Registrate </a></p>
+							<a href="#"> ¿Olvidaste tu contraseña? </a>			
+						</form>
+					</div>
+					</div>
+			</div>
+			
+		</main>
+		</body>
 </html>
