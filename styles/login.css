@@ -1,0 +1,45 @@
+.container-name-aplication{
+    background-color: black;
+    width: 60%;
+    height: 10%;
+    margin-left: 20%;
+    margin-top: 3%;
+    text-align: center;
+}
+#text-name-aplication{
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 2rem;
+}
+#img-logo{
+    width: 100%;
+}
+
+.container-logo {
+    width: 10%;
+    height: 20%;
+    margin-left: 45%;
+    margin-top: 4%;
+}
+.container-form {
+    width: 28%;
+    height: 35%;
+    margin-left: 35%;
+    margin-top: 3%;
+    border: 2px solid;
+    position: absolute;
+    padding-left: 7%;
+    padding-top: 5%;
+}
+input {
+    width: 70%;
+    height: 12%;
+    margin-top: 5%;
+}
+
+button{
+    width: 35%;
+    height: 12%;
+    margin-top: 2%;
+    justify-content: center;
+}
