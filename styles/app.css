@@ -209,9 +209,13 @@ span {
     height: 100%;
     display: grid;
     grid-template-columns: 0.4fr 1.6fr ;
+    
+}
+.nav-lateral{
+    display: block;
 }
 .nav-lateral li{
-    list-style: none; 
+    list-style: none;
 }
 .nav-lateral a {
     display: block;
@@ -220,6 +224,13 @@ span {
     padding-bottom: 2rem;
     border: 0.1rem solid #E5E7E9;
     padding-left: 1rem;
+    padding-top: 10%;
+         
+}
+.nav-lateral a:hover{
+    transition: 0,3s;
+    color: #AEB6BF;
+    background-color: #2C3E50;
 }
 .nav-lateral ul{
     padding-left: 0;
