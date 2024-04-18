@@ -1,0 +1,64 @@
+/* División de la pnatalla en columnas*/
+.main-container {
+    display: grid;
+    grid-template: 1fr/repeat(auto-fit,minmax(360px,auto));
+}
+@media(min-width: 1024px){
+    .main-container {
+        display: grid;
+        grid-template-columns: 0.7fr 1.3fr;
+    }
+}
+
+.img-principal img {
+    visibility: hidden;
+}
+.main-container {
+    height: 100%;    
+}
+
+.img-principal {
+    display: none;
+    
+}
+
+@media(min-width: 1024px) {
+    .img-principal {
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        height: 100%;
+    }
+    .img-principal img {
+        display: block;
+        visibility: visible;
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.container:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+}
+.container {
+    display: grid;
+    grid-template-rows: 0.9fr 1.1fr;
+    justify-content: center;
+    height: 100%;
+}
+
+.container-form {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 0.2rem solid #E5E7E9;
+    border-radius: 1cap;
+    display: flex;
+    flex-direction: column;
+    max-height: 70%;
+    margin-top: 0;
+    text-align: center;
+}
