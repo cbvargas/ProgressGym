@@ -7,7 +7,7 @@ function hidenNav(){
     } else {
         //navegacion.className =  "ocultar-nav:nth-child(1)";
         navegacion.style.display = 'none';
-        contenidoPricipal.className ='home-contenido-sin-nav';
+        contenidoPricipal.className ='home-container-sin-nav';
     }
         //contenidoPricipal.classList.toggle("home-contenido-sin-nav");
         
