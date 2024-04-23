@@ -7,12 +7,13 @@
         <link rel="icon" href="./images/iconoPrincipal.png"> 
 		<link rel="stylesheet" href="./styles/normalize.css">
 		<link rel="stylesheet" href="./styles/app.css">
-		<meta charset="UTF-8">
+        <script src="./js/HomePage.js"></script>
+        <meta charset="UTF-8">
 	</head>
     <body class="fixed">
         <header class="header-container">
             <div class="container-menu">
-                <img class="icon-header" src="./images/iconoMenu.png" alt="Icono menu">
+                <img onclick="hidenNav()" class="icon-header" src="./images/iconoMenu.png" alt="Icono menu">
             </div>
             
             <div class="container-menu">
@@ -28,8 +29,8 @@
                 <img src="./images/Icono_sesión.jpg" class="icon-header align-right" alt="Icono Usuario">
             </div>
         </header>
-        <div class="home-container">
-            <nav class="nav-lateral">
+        <div class="home-container" id="contenido-principal">
+            <nav class="nav-lateral" id="barra-lateral" >
                     <ul>
                         <li>
                             <a href="#"> Mi rutina </a>
@@ -43,7 +44,7 @@
                     </ul>
             </nav>
             <main class="home-contenido">
-
+                
             </main>
         </div>
         

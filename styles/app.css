@@ -27,6 +27,9 @@ body {
     height: 100%;
 }
 /*Utilidades*/
+.fixed {
+    position: fixed;
+}
 .text-center {
     text-align: center;
 
@@ -315,6 +318,7 @@ span {
         display: grid;
         grid-template-columns: 0.4fr 1.6fr ;
         gap: 2rem;  
+        grid-template-rows: 1fr;
     }
 }
 .home-container-sin-nav{

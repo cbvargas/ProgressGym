@@ -1,0 +1,39 @@
+ .home-contenido {
+   display: grid;
+   grid-template-rows: repeat(7, 1fr);
+   gap: 1rem 0rem;
+   margin: 0rem 1rem;
+}
+@media (min-width: 1024px) {
+    .home-contenido {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        gap: 1rem 1rem;
+        margin: 2rem 2rem 1rem 1rem;
+    }
+    .container-day:nth-child(7) {
+        grid-column: 2/3;
+    }
+}
+.container-day {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #34495E;
+    border: 0.1rem solid #34495E;
+    border-radius: 0.7rem;
+    color: #E0E0E0;
+    align-items: center;
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+   
+}
+.container-day h3 {
+    margin-top: 2rem;
+    text-align: center;
+}
+.container-day button {
+    width: 50%;
+    height: 15%;
+}
+
