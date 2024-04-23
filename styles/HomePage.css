@@ -6,7 +6,7 @@
 }
 .home-contenido {
     display: grid;
-    grid-template-rows: 0.3fr 1.3f;
+    grid-template-rows: 0.3fr 1.3fr;
     background-color: #F8F9F9;
     gap: 0 2rem;
     margin-bottom: 10rem;
