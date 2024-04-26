@@ -48,6 +48,7 @@ span {
 }
 .home-contenido button {
     width: 25%;
+    margin-top: 2rem;
     background-color: #fd9642;
     color: #fff;
     border: 0.2rem solid #fd7e14;
